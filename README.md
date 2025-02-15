@@ -1,4 +1,5 @@
-# node-express-boilerplate-v3# A boilerplate for building RESTful APIs using Node.js, Express.js and MySQL
+# node-express-mysql
+# A boilerplate for building RESTful APIs using Node.js, Express.js and MySQL
 
 ## Manual Installation
 
@@ -50,7 +51,7 @@ The environment variables can be found and modified in the `.env.development` fi
 
 ```bash
 NODE_ENV=example
-PORT=3900
+PORT=5000
 
 # Database Settings
 DB_HOST=localhost
@@ -66,6 +67,7 @@ COOKIE_EXPIRES=1
 
 ## Project Structure
 ```
+<!-- /src -->
 |--config\               # Environment variables and configuration related things
 |--controllers\          # Controller layer
 |--enums\                # Common enum values
@@ -75,7 +77,7 @@ COOKIE_EXPIRES=1
 |--utils\                # Utility classes and functions
 |--validations\          # Request data validation schemas
 |--app.js                # App file
-|--server.js             # App entry point
+|--index.js             # App entry point
 ```
 
 ### API Endpoints
