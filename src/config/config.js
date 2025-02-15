@@ -3,7 +3,7 @@ const path = require('path');
 const Joi = require('joi');
 const { env_mode } = require('../enums/common.enum');
 
-dotenv.config({ path: path.join(__dirname, '../.env.development') });
+dotenv.config({ path: path.join(__dirname, '../../.env') });
 
 const configEnvSchema = Joi.object()
   .keys({

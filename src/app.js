@@ -6,10 +6,10 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const rateLimit = require('express-rate-limit');
 
-const config = require('./src/config/config');
-const mountRoute = require('./src/routes/routes');
-const { env_mode } = require('./src/enums/common.enum');
-const errorHandler = require('./src/middlewares/error.middleware');
+const config = require('./config/config');
+const mountRoute = require('./routes/routes');
+const { env_mode } = require('./enums/common.enum');
+const errorHandler = require('./middlewares/error.middleware');
 
 const app = express();
 

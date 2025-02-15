@@ -1,7 +1,7 @@
 {
-  "name": "node-express-boilerplate-v3",
+  "name": "node-express-mysql",
   "version": "2.0.0",
-  "author": "Ruhit Hassan",
+  "author": "Razu Molla",
   "description": "A boilerplate for building RESTful APIs using Node.js, Express.js and MySQL",
   "main": "index.js",
   "license": "MIT",

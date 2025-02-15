@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/media/razu-molla/Official/all-boilerplate/node-express-mysql/src/logs/.af20eb3b5a661b1dd707d828af4f8d71d94ca399-audit.json",
+    "files": [
+        {
+            "date": 1739599558307,
+            "name": "/media/razu-molla/Official/all-boilerplate/node-express-mysql/src/logs/app-15-02-2025.log",
+            "hash": "1b51618fdea8baf354045cf83685fd5229ef71b31455ff42ab7618cd883a37ee"
+        }
+    ],
+    "hashType": "sha256"
+}

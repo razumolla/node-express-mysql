@@ -1,7 +1,7 @@
-const app = require('./src/app');
+const app = require('./app');
 require('colors');
-const config = require('./src/config/config');
-const { connectMySQL } = require('./src/config/db');
+const config = require('./config/config');
+const { connectMySQL } = require('./config/db');
 
 // Connect to database
 connectMySQL();
