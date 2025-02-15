@@ -1,0 +1,8 @@
+[2/15/2025, 2:02:52 PM] error: 400 - Unexpected token } in JSON at position 55 - /api/v3/auth - POST - ::1
+[2/15/2025, 2:04:21 PM] error: 500 - Table 'test_db.users' doesn't exist - /api/v3/auth/register - POST - ::1
+[2/15/2025, 2:12:21 PM] error: 500 - bcrypt is not defined - /api/v3/auth/register - POST - ::1
+[2/15/2025, 2:15:01 PM] error: 500 - Assignment to constant variable. - /api/v3/auth/register - POST - ::1
+[2/15/2025, 2:16:02 PM] error: 401 - Username exists - /api/v3/auth/register - POST - ::1
+[2/15/2025, 2:17:23 PM] error: 500 - option expires is invalid - /api/v3/auth/login - POST - ::1
+[2/15/2025, 2:21:38 PM] error: 400 - Validation Error - /api/v3/users/ - POST - ::1
+[2/15/2025, 2:23:27 PM] error: 500 - Assignment to constant variable. - /api/v3/auth/register - POST - ::1

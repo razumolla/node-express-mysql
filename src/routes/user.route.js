@@ -11,8 +11,8 @@ const {
 const { protect, authorize } = require("../middlewares/auth.middleware");
 const { user_role } = require("../enums/common.enum");
 
-router.use(protect);
-router.use(authorize([user_role.ADMIN]));
+// router.use(protect);
+// router.use(authorize([user_role.ADMIN]));
 
 router.route("/")
   .get(getUsers)

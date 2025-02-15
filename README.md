@@ -3,6 +3,9 @@
 
 ## Manual Installation
 
+# Prerequisites
+- node version ; 20.18.2
+
 If you would still prefer to do the installation manually, follow these steps:
 
 Clone the repo:
@@ -57,7 +60,7 @@ PORT=5000
 DB_HOST=localhost
 DB_USERNAME=root
 DB_PASSWORD=root@101
-DB_NAME=test
+DB_NAME=test_test
 
 # JWT Settings
 JWT_SECRET=unsecureJwtSecret
